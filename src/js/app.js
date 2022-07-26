@@ -16,3 +16,7 @@ window.onload = () => {
   const randomize = new Randomize('board', 'cell');
   randomize.showGoblinInterval(1000);
 };
+
+export default function demo(value) {
+  return value;
+}
